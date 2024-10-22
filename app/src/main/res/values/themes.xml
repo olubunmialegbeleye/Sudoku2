@@ -8,6 +8,9 @@
         <item name="colorSurface">@color/colorSurface</item>
 
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="android:windowSplashScreenBackground">@color/colorSurface</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_splash_screen_branding_image</item>
     </style>
 
     <style name="Theme.Sudoku" parent="Base.Theme.Sudoku" />
