@@ -12,11 +12,11 @@ A powerful and efficient Sudoku Solver application built with Kotlin, designed t
 
 ## Screenshots
 
-### Input Screen
-![Input Screen](assets/images/Landing Activity.png)
+### Landing Activity
+![Landing Activity](assets/images/Landing_Activity.png)
 
-### Solved Puzzle
-![Solved Puzzle](assets/images/Main Activity.png)
+### Main Activity
+![Main Activity](assets/images/Main_Activity.png)
 
 ## Getting Started
 
@@ -29,7 +29,7 @@ A powerful and efficient Sudoku Solver application built with Kotlin, designed t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sudoku-solver.git
+   git clone https://github.com/olubunmialegbeleye/sudoku-solver.git
 
 2. Open the project in Android Studio.
 3. Sync Gradle and build the project.
