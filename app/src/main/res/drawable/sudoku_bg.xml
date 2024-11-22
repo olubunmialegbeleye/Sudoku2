@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color of the rectangle -->
+    <solid android:color="?attr/colorPrimary" /> <!-- Change to your desired color -->
+
+    <!-- Corner radius for the slight curve -->
+    <corners android:radius="8dp" /> <!-- Adjust this value for more/less curvature -->
+</shape>

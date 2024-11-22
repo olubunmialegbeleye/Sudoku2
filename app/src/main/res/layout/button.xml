@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/one"
+        android:textColor="?attr/colorOnSecondary"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:backgroundTint="?attr/colorSecondary"
+        app:cornerRadius="25dp" />
+</layout>
