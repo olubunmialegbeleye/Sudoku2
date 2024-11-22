@@ -1,11 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.hilt.android)
+    alias(libs.plugins.ksp)
 }
 
 android {
     namespace = "com.olubunmialegbeleye.sudoku"
     compileSdk = 34
+
+    buildFeatures {
+        dataBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.olubunmialegbeleye.sudoku"
@@ -46,4 +52,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.splashscreen)
+    implementation(libs.datastore.preferences)
+    implementation(libs.kotlinx.serialization)
+    implementation(libs.lifecycle.viewmodel.ktx)
+    ksp(libs.hilt.compiler)
+    implementation(libs.hilt.android)
 }
